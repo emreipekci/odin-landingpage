@@ -41,3 +41,46 @@ button {
     border-radius: 7px;
     border: 0;
 }
+/* div class="main" */
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.main-part-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 0 50px 50px 50px;
+}
+
+.main-part-one img {
+    height: 100px;
+    width: 130px;
+    border-radius: 8px;
+    border: solid 2px #3882f6;
+}
+
+.main-part-one p {
+    text-align: center;
+    margin-top: 0;
+}
+
+.main-part-two {
+    background-color: #e5e7eb;
+    padding: 60px 50px;
+}
+
+.testimonial {
+   font-size: 20px;
+   font-style: italic; 
+   line-height: 150%;
+}
+
+.name {
+    text-align: end;
+    margin: 0;
+}
