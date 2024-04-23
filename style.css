@@ -1,10 +1,14 @@
+body {
+    margin: 0 140px;
+}
+
 .header {
     background-color: #1F2937;
     color: white;
     font-size: 18px;
     display: flex;
     flex-direction: column;
-    padding: 15px 70px 50px 70px;
+    padding: 15px 150px 70px 150px;
 }
 .header-nav {
     display: flex;
@@ -16,6 +20,11 @@
     text-decoration: none;
     color: white;
     
+}
+.header-img {
+    height: 400px;
+    width: auto;
+
 }
 .logo-img {
     margin-right: auto;
@@ -48,19 +57,19 @@ h2 {
     font-size: 36px;
     color: #1f2937;
     text-align: center;
+    padding: 40px;
 }
 
 .main-part-one {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 15px;
-    padding: 0 100px 50px 100px;
+    padding-bottom: 50px;
 }
 
 .main-part-one img {
-    height: 100px;
-    width: 130px;
+    height: 200px;
+    width: 260px;
     border-radius: 8px;
     border: solid 2px #3882f6;
 }
